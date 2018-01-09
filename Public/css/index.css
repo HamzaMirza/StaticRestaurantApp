@@ -1,0 +1,98 @@
+body{
+     margin: 0px;
+    padding: 0px;
+       background-color: #E3E3E3;
+}
+.Wrapper
+{
+    
+
+}
+#Body
+{
+   width: 1150px;
+    margin-left: 85px;
+   
+}
+#MainHead
+{
+     font-size: 50px;
+   margin-top: 60px;
+   text-align: center;
+   color: #d54d7b; 
+   font-family: "Great Vibes", cursive;
+    line-height: 130px;
+     font-weight: normal;
+      margin-bottom: 0px; 
+      text-align: center; text-shadow: 0 1px 1px #fff;
+}
+#images
+{
+   margin-left: 80px; 
+}
+#images > p
+{
+    display: inline-block;
+    color:red;
+    font-size: 20px;
+    background-color: white;
+    width:293px;
+     margin-left: 30px;
+      margin-top: 0px;
+      text-align: center;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#images >a>input
+{
+ margin-left: 30px; 
+     height: 190px;
+    width: 293px;
+}
+footer
+{
+    height: 200px;
+    background-color: whitesmoke;
+    margin-top:10px; 
+}
+footer > #About,footer > #Services,footer > #FoodPic
+{
+    width: 250px;
+     
+}
+footer > #About >h3, footer>#Services>h3
+{
+    
+    font-family: 'Rouge Script', cursive; 
+  font-weight: normal; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px #082b34; 
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+footer > #About >p, footer>#Services>p
+{
+  
+    font-family: 'Julius Sans One', sans-serif;
+     font-weight: normal;  
+     text-shadow: 1px 1px 1px #082b34;
+    padding-left: 30px;
+    
+}
+footer > #Services
+{
+    margin-top:-211px;
+ margin-left:490px;
+}
+footer > #FoodPic
+{
+    
+        margin-top:-185px;
+        margin-left: 1120px;
+        clear: left;
+}
+footer > #FoodPic > img
+{
+    height: 200px;
+}

@@ -1,0 +1,55 @@
+
+header
+{
+	width:100%;
+	height:50px;
+	border:1px solid white;
+	position:absolute;
+	top:0px;	
+	background-color: white;
+	
+}
+header > div
+{
+	position:absolute;
+	top:10px;
+	left:60px;
+	font-size:20px;
+	color:rgb(151,52,11);
+	font-family: Comic Sans MS,Charcoal;
+}
+.header
+{
+ 
+	position:absolute;
+	left:1050px;
+}
+.header > a
+{
+		display: inline-block;
+		float:left;
+		padding-right:25px;
+		text-decoration:none;
+		font-size:15px;
+		font-family: Comic Sans MS,Charcoal;
+		
+		color:rgb(151,52,11);
+}
+.header > a:active
+{
+	color:green;
+}
+#Order
+{
+	position: absolute;
+	right:2px;
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+#Order >a> img
+{
+	width: 100px;
+	height: 100px;
+}

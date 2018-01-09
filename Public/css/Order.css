@@ -1,0 +1,70 @@
+body{
+     margin: 0px;
+    padding: 0px;
+       background-color: #E3E3E3;
+}
+.Wrapper
+{
+         font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.bill
+{
+	position:absolute;
+	left:990px;
+	top:150px;
+	font-size:15px;
+}
+.bill > input[type="text"]
+{
+	width:100px;
+}
+.Panel 
+{
+	position:absolute;
+	left:120px;
+}
+.Panel >input[type="submit"],.Slots>input[type="button"],.Total>input[type="button"]
+{
+	margin:5px;
+	width:120px;
+	border-height:1px;
+	text-align:center;
+	margin-left:15px;
+	margin-right:15px;
+	border-radius:5px;
+	background-color:D8D8e8;
+	height:30px;
+	border-color:AAB8D0;
+}
+.Slots
+{
+	font-size:13px;
+	padding:4px;
+	margin:4px;
+	position:absolute;
+	top:220px;
+	left:80px;
+}
+.Slots > select
+{
+	width:240px;
+	 appearance:dashed;
+}
+#Quan
+{
+	width:70px;
+}
+.slotHeadings
+{
+	position:absolute;
+	top:200px;
+	font-size:15px;
+	left:80px;
+}
+.Total
+{
+	position:absolute;
+	left:730px;
+	top:610px;
+}
